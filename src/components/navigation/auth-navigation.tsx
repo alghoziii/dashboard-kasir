@@ -7,14 +7,14 @@ import Link from 'next/link'
 const AuthNavigation: FC = () => {
   return (
     <Box sx={{ '& button:first-child': { mr: 2 } }}>
-      <Link href="https://kasirqdb23.000webhostapp.com/register.php">
+      <Link href="https://kasirdb23fix.000webhostapp.com/register.php">
         <a>
           <StyledButton disableHoverEffect={true} variant="outlined">
             Daftar
           </StyledButton>
         </a>
       </Link>
-      <Link href="https://kasirqdb23.000webhostapp.com/login.php">
+      <Link href="https://kasirdb23fix.000webhostapp.com/login.php">
         <a>
           <StyledButton disableHoverEffect={true}>Masuk</StyledButton>
         </a>
