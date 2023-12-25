@@ -44,18 +44,7 @@ const HomeHero: FC = () => {
                     }}
                   >
                     Aplikasi{' '}
-                    <Box
-                      sx={{
-                        position: 'absolute',
-                        top: { xs: 24, md: 34 },
-                        left: 2,
-                        transform: 'rotate(3deg)',
-                        '& img': { width: { xs: 146, md: 210 }, height: 'auto' },
-                      }}
-                    >
-                      {/* eslint-disable-next-line */}
-                      <img src="/images/headline-curve.svg" alt="Headline curve" />
-                    </Box>
+              
                   </Typography>
                   Kasir{' '}
                   <Typography
