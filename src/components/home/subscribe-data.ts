@@ -3,14 +3,14 @@ import type { FiturProAndFree } from '@/interfaces/ProandFree'
 export const data: Array<FiturProAndFree> = [
   {
     id: 1,
-    photo: '/images/ProandFree/Free.png',
+    photo: '/images/ProandFree/Pro.png',
     name: 'Kasir Pro',
-    description: 'Transaksi Terbatas Manajemen Barang Hanya 2 Data',
+    description: 'Transaksi Tak Terbatas dan Manajemen barang 500 data',
   },
   {
     id: 2,
-    photo: '/images/ProandFree/Pro.png',
+    photo: '/images/ProandFree/Free.png',
     name: 'Kasir Free',
-    description: 'Transaksi Tak Terbatas Dan Manajemen Barang Tak Terbatas',
+    description: 'Transaksi Terbatas Manajemen barang 100 data',
   },
 ]
